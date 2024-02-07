@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "CommonJS",                                  
+    "lib": ["ES6"],                                       
+    "rootDir": "./src",                                  
+    "outDir": "./build", 
+    "typeRoots": [
+      "./node_modules/@types", 
+      "./src/@types"
+    ],
+    "baseUrl": "./src",                                
+    "allowSyntheticDefaultImports": true,             
+    "esModuleInterop": true,                             
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,                                      
+    "noImplicitAny": true,                        
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"],
+}
